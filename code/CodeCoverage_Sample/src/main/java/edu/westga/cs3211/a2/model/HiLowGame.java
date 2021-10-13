@@ -7,7 +7,7 @@ import java.util.Random;
  * @author CS 3211
  * @version Fall 2021
  */
-public class HiLowGame {  
+public class HiLowGame {   
 	private int secretNumber;
 	private int guessCount;
 	private Random randomNumberGenerator;
