@@ -29,7 +29,7 @@ class TestCheckGuess {
 		}
 	}
 
-	@Test
+	/*@Test
 	void testGuessTooHigh() {
 		RandomFakeSpy spy = new RandomFakeSpy();
 		HiLowGame game = new HiLowGame(spy);
@@ -91,6 +91,6 @@ class TestCheckGuess {
 			()->{assertEquals(2, spy.callCount, "checking number of times random number was generated");},
 			()->{assertEquals(100, spy.lastBoundProvided, "checking last bound provided when generating random number");}
 		);
-	} 
+	} */
 
 }
